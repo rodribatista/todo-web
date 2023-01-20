@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;700&&display=swap');
+
+:root {
+  --black: #252525;
+  --dark: #1c1c1f;
+
+  --grey: #E3E3E3;
+  --blue: #0E5CB6;
+  --blue-hover: rgb(16, 81, 202);
+  --green: #00cc7eff;
+  --pink: #ff76e2ff;
+  --orange: #ff7059ff;
+  --yellow: #ffc51aff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia Sans', sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+
+.rounded {
+  border-radius: 100vh;
+}
+
+footer {
+  height: 2rem;
+  width: 100%;
+  background-color: var(--black);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--orange);
+}
+
+footer img {
+  height: 100%;
+}
